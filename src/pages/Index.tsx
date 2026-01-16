@@ -1,12 +1,25 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Header from "@/components/salon/Header";
+import Hero from "@/components/salon/Hero";
+import About from "@/components/salon/About";
+import Services from "@/components/salon/Services";
+import Gallery from "@/components/salon/Gallery";
+import Reviews from "@/components/salon/Reviews";
+import Contact from "@/components/salon/Contact";
+import Footer from "@/components/salon/Footer";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      <Header />
+      <main>
+        <Hero />
+        <About />
+        <Services />
+        <Gallery />
+        <Reviews />
+        <Contact />
+      </main>
+      <Footer />
     </div>
   );
 };
