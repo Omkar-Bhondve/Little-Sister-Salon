@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="absolute inset-0">
         <img
           src={heroImage}
-          alt="The Cut Hut salon interior"
+          alt="Little Sister Salon interior"
           className="w-full h-full object-cover"
         />
         {/* Animated Gradient Overlay */}
@@ -40,7 +40,7 @@ const Hero = () => {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gold/10 border border-gold/30 backdrop-blur-sm mb-6 animate-fade-in">
             <Sparkles className="w-4 h-4 text-gold" />
             <p className="text-gold font-medium tracking-wide uppercase text-sm">
-              Welcome to Austin's Premier Salon
+              Welcome to Little Sister Salon
             </p>
           </div>
 
@@ -48,28 +48,28 @@ const Hero = () => {
             className="text-6xl md:text-8xl lg:text-9xl font-display font-bold text-white mb-6 animate-fade-in text-shadow-premium"
             style={{ animationDelay: "0.1s" }}
           >
-            The Cut <span className="text-gradient-gold">Hut</span>
+            Little Sister <span className="text-gradient-gold">Salon</span>
           </h1>
 
           <p
             className="text-2xl md:text-3xl text-white/90 mb-4 animate-fade-in font-medium"
             style={{ animationDelay: "0.2s" }}
           >
-            Austin's Friendly Neighborhood
+            Austin's Modern
           </p>
           <p
             className="text-2xl md:text-3xl text-gold mb-8 animate-fade-in font-display font-bold"
             style={{ animationDelay: "0.25s" }}
           >
-            Hair Salon & Barbershop
+            Hair Salon
           </p>
 
           <p
             className="text-white/80 text-lg md:text-xl mb-10 max-w-xl animate-fade-in leading-relaxed"
             style={{ animationDelay: "0.3s" }}
           >
-            No appointment needed. Walk-ins always welcome. Serving men, women,
-            and children in West Campus.
+            Professional haircuts, color, styling, and treatments in South
+            Austin. Walk-ins welcome!
           </p>
 
           {/* CTA Buttons */}
@@ -82,7 +82,7 @@ const Hero = () => {
               className="bg-gold hover:bg-gold-dark text-white text-lg px-8 py-7 shadow-glow-gold hover:scale-105 transition-all duration-300"
               asChild
             >
-              <a href="tel:+15124796911">
+              <a href="tel:+15123835821">
                 <Phone className="w-5 h-5 mr-2" />
                 Call Now
               </a>
@@ -94,7 +94,7 @@ const Hero = () => {
               asChild
             >
               <a
-                href="https://maps.google.com/?q=911+W+24th+St,+Austin,+TX+78705"
+                href="https://maps.google.com/?q=3715+S+1st+St+Unit+C,+Austin,+TX+78704"
                 target="_blank"
                 rel="noopener noreferrer"
               >

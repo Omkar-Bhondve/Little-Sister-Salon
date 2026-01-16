@@ -86,11 +86,13 @@ const Team = () => {
         </div>
 
         {/* Stats */}
-        <div className="grid grid-cols-3 gap-4 md:gap-8 max-w-3xl mx-auto mb-16">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8 max-w-3xl mx-auto mb-16">
           {stats.map((stat, index) => (
             <div
               key={stat.label}
-              className="text-center p-6 bg-background rounded-lg shadow-premium hover:shadow-premium-lg transition-all duration-300 hover:-translate-y-1"
+              className={`text-center p-6 bg-background rounded-lg shadow-premium hover:shadow-premium-lg transition-all duration-300 hover:-translate-y-1 ${
+                index === 2 ? "hidden md:block" : ""
+              }`}
             >
               <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-gold/10 flex items-center justify-center">
                 <stat.icon className="w-6 h-6 text-gold" />

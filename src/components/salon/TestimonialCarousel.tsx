@@ -7,7 +7,7 @@ const testimonials = [
     name: "Marcus Thompson",
     role: "Regular Customer",
     review:
-      "I've been coming to The Cut Hut for over 3 years now. The consistency in quality and the friendly atmosphere keep me coming back. Best barbershop in Austin, hands down!",
+      "I've been coming to Little Sister Salon for over 2 years now. The consistency in quality and the friendly atmosphere keep me coming back. Best salon in South Austin, hands down!",
     rating: 5,
     image:
       "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop",
@@ -16,7 +16,7 @@ const testimonials = [
     name: "Sarah Martinez",
     role: "UT Student",
     review:
-      "As a busy student, I love that they take walk-ins. The stylists are incredibly talented and always give me exactly what I ask for. Plus, the prices are very reasonable!",
+      "The stylists at Little Sister Salon are incredibly talented. They really listen to what you want and deliver amazing results every time. I always leave feeling confident and beautiful!",
     rating: 5,
     image:
       "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop",
@@ -25,7 +25,7 @@ const testimonials = [
     name: "David Chen",
     role: "Local Professional",
     review:
-      "The Cut Hut has become my go-to spot for haircuts. Professional service, great conversation, and I always leave looking sharp. Highly recommend to anyone in West Campus!",
+      "Little Sister Salon has become my go-to spot for color and cuts. Professional service, great conversation, and I always leave looking sharp. Highly recommend to anyone in South Austin!",
     rating: 5,
     image:
       "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop",
@@ -34,7 +34,7 @@ const testimonials = [
     name: "Jessica Williams",
     role: "Parent",
     review:
-      "Finding a salon that's great with kids is tough, but The Cut Hut nailed it! My son actually enjoys getting his haircut now. The staff is patient and skilled.",
+      "I love the modern, welcoming vibe at Little Sister Salon. The stylists are skilled professionals who really care about their craft. My hair has never looked better!",
     rating: 5,
     image:
       "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop",

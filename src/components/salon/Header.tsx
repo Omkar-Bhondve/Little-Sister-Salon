@@ -40,7 +40,7 @@ const Header = () => {
             {/* Logo */}
             <a href="#" className="flex items-center gap-2 group">
               <span className="text-2xl md:text-3xl font-display font-bold text-white">
-                The Cut <span className="text-gradient-gold">Hut</span>
+                Little Sister <span className="text-gradient-gold">Salon</span>
               </span>
             </a>
 
@@ -63,7 +63,7 @@ const Header = () => {
                 asChild
                 className="bg-gold hover:bg-gold-dark text-white shadow-glow-gold"
               >
-                <a href="tel:+15124796911">
+                <a href="tel:+15123835821">
                   <Phone className="w-4 h-4 mr-2" />
                   Call Now
                 </a>
@@ -104,9 +104,11 @@ const Header = () => {
           {/* Sidebar Header */}
           <div className="p-6 border-b border-white/10">
             <h2 className="text-2xl font-display font-bold text-white">
-              The Cut <span className="text-gradient-gold">Hut</span>
+              Little Sister <span className="text-gradient-gold">Salon</span>
             </h2>
-            <p className="text-white/60 text-sm mt-1">Austin's Premier Salon</p>
+            <p className="text-white/60 text-sm mt-1">
+              Austin's Modern Hair Salon
+            </p>
           </div>
 
           {/* Navigation Links */}
@@ -134,15 +136,15 @@ const Header = () => {
               className="w-full bg-gold hover:bg-gold-dark text-white shadow-glow-gold"
               size="lg"
             >
-              <a href="tel:+15124796911">
+              <a href="tel:+15123835821">
                 <Phone className="w-4 h-4 mr-2" />
-                Call (512) 479-6911
+                Call (512) 383-5821
               </a>
             </Button>
 
             <div className="text-center">
               <p className="text-white/50 text-xs">
-                Mon-Sat: 9AM-7PM | Sun: 10AM-5PM
+                Tue-Sat: 9AM-5PM | Thu: 8AM-5PM
               </p>
             </div>
           </div>

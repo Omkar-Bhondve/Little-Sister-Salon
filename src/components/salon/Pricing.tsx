@@ -114,7 +114,7 @@ const Pricing = () => {
                   size="lg"
                   asChild
                 >
-                  <a href="tel:+15124796911">Book Now</a>
+                  <a href="tel:+15123835821">Book Now</a>
                 </Button>
               </CardContent>
             </Card>

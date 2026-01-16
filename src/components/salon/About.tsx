@@ -10,7 +10,7 @@ const About = () => {
             <div className="aspect-square rounded-lg overflow-hidden">
               <img
                 src={barberWorkingImage}
-                alt="Professional barber at The Cut Hut"
+                alt="Professional stylist at Little Sister Salon"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -24,36 +24,43 @@ const About = () => {
               About Us
             </p>
             <h2 className="text-4xl md:text-5xl font-display font-bold text-foreground mb-6">
-              Your Neighborhood <span className="text-gold">Barbershop</span>
+              Your Modern <span className="text-gold">Hair Salon</span>
             </h2>
             <div className="space-y-4 text-muted-foreground text-lg">
               <p>
-                Welcome to <strong className="text-foreground">The Cut Hut</strong> — your go-to 
-                hair salon and barbershop in the heart of Austin's West Campus neighborhood. 
-                We've been proudly serving the UT community and local residents with quality 
-                haircuts, styling, and grooming services.
+                Welcome to{" "}
+                <strong className="text-foreground">Little Sister Salon</strong>{" "}
+                — your modern hair salon in South Austin. We specialize in
+                professional cuts, custom color, styling, and treatments that
+                bring out your best look.
               </p>
               <p>
-                Whether you're a student rushing between classes, a busy professional, or a 
-                parent with kids in tow, we've got you covered. Our experienced stylists and 
-                barbers deliver quick, quality cuts at <strong className="text-foreground">competitive prices</strong> — 
-                no appointment needed.
+                Our talented stylists are passionate about creating beautiful,
+                personalized styles that complement your unique personality.
+                From classic cuts to the latest trends, we deliver{" "}
+                <strong className="text-foreground">exceptional results</strong>{" "}
+                in a warm, welcoming environment.
               </p>
               <p>
-                Step into our relaxed, welcoming atmosphere where everyone is treated like 
-                family. From classic cuts to modern styles, we cater to <strong className="text-foreground">men, 
-                women, and children</strong> of all ages.
+                Located on South 1st Street, we're proud to serve the Austin
+                community with quality hair care services. Walk-ins are always
+                welcome, and we look forward to helping you look and feel your
+                best.
               </p>
             </div>
 
             {/* Highlights */}
             <div className="grid grid-cols-2 gap-6 mt-10">
               <div className="text-center p-4 bg-secondary rounded-lg">
-                <p className="text-3xl font-display font-bold text-gold">Walk-In</p>
+                <p className="text-3xl font-display font-bold text-gold">
+                  Walk-In
+                </p>
                 <p className="text-sm text-muted-foreground">Welcome</p>
               </div>
               <div className="text-center p-4 bg-secondary rounded-lg">
-                <p className="text-3xl font-display font-bold text-gold">All Ages</p>
+                <p className="text-3xl font-display font-bold text-gold">
+                  All Ages
+                </p>
                 <p className="text-sm text-muted-foreground">Served</p>
               </div>
             </div>

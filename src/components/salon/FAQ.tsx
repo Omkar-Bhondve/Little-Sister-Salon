@@ -57,7 +57,7 @@ const FAQ = () => {
           </h2>
           <p className="text-muted-foreground text-lg">
             Got questions? We've got answers. Here's everything you need to know
-            about The Cut Hut.
+            about Little Sister Salon.
           </p>
         </div>
 
@@ -100,7 +100,7 @@ const FAQ = () => {
           <p className="text-muted-foreground text-lg">
             Still have questions?{" "}
             <a
-              href="tel:+15124796911"
+              href="tel:+15123835821"
               className="text-gold hover:underline font-medium link-underline"
             >
               Give us a call

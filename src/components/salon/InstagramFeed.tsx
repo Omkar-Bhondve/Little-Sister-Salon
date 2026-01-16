@@ -60,18 +60,18 @@ const InstagramFeed = () => {
             <span className="text-gradient-gold">Instagram</span>
           </h2>
           <p className="text-muted-foreground text-lg mb-6">
-            Follow @thecuthut for daily style inspiration, special offers, and
-            behind-the-scenes content!
+            Follow @littlesistersalon for daily style inspiration, special
+            offers, and behind-the-scenes content!
           </p>
 
           <a
-            href="https://instagram.com/thecuthut"
+            href="https://instagram.com/littlesistersalon"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-500 to-pink-500 text-white rounded-lg font-medium hover:scale-105 transition-all duration-300 shadow-premium hover:shadow-premium-lg"
           >
             <Instagram className="w-5 h-5" />
-            Follow @thecuthut
+            Follow @littlesistersalon
             <ExternalLink className="w-4 h-4" />
           </a>
         </div>
@@ -81,7 +81,7 @@ const InstagramFeed = () => {
           {instagramPosts.map((post, index) => (
             <a
               key={index}
-              href="https://instagram.com/thecuthut"
+              href="https://instagram.com/littlesistersalon"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative aspect-square rounded-lg overflow-hidden shadow-premium hover:shadow-premium-lg transition-all duration-300 hover:-translate-y-1"
@@ -115,8 +115,8 @@ const InstagramFeed = () => {
         <div className="text-center mt-12">
           <p className="text-muted-foreground text-lg">
             Tag us in your photos with{" "}
-            <span className="text-gold font-medium">#TheCutHut</span> for a
-            chance to be featured!
+            <span className="text-gold font-medium">#LittleSisterSalon</span>{" "}
+            for a chance to be featured!
           </p>
         </div>
       </div>

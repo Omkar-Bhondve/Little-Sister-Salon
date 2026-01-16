@@ -1,9 +1,9 @@
 import { MessageCircle } from "lucide-react";
 
 const WhatsAppButton = () => {
-  const phoneNumber = "15124796911"; // Your phone number with country code (no + or spaces)
+  const phoneNumber = "15123835821"; // Your phone number with country code (no + or spaces)
   const defaultMessage =
-    "Hi! I'd like to book an appointment at The Cut Hut. When are you available?";
+    "Hi! I'd like to book an appointment at Little Sister Salon. When are you available?";
 
   const handleWhatsAppClick = () => {
     const encodedMessage = encodeURIComponent(defaultMessage);

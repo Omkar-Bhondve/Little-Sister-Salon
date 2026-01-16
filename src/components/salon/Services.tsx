@@ -1,36 +1,36 @@
-import { Scissors, SprayCan, Baby, Sparkles, Zap } from "lucide-react";
+import { Scissors, Palette, Sparkles, Heart, Zap } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
 const services = [
   {
     icon: Scissors,
-    title: "Adult Haircuts",
+    title: "Professional Cuts",
     description:
-      "Classic and modern styles for men and women. Our skilled stylists deliver precision cuts tailored to your face shape and lifestyle.",
+      "Expert haircuts for all styles and lengths. From classic to contemporary, our stylists create looks that complement your unique personality.",
   },
   {
-    icon: SprayCan,
-    title: "Shampoo & Style",
+    icon: Palette,
+    title: "Color Services",
     description:
-      "Relaxing shampoo treatment with professional blow-dry styling. Perfect for a fresh, polished look.",
-  },
-  {
-    icon: Baby,
-    title: "Kids' Haircuts",
-    description:
-      "Patient, kid-friendly service in a fun atmosphere. We make haircuts enjoyable for children of all ages.",
+      "Single process color, custom highlights, and balayage. Transform your look with our professional coloring techniques.",
   },
   {
     icon: Sparkles,
-    title: "Beard Trims",
+    title: "Styling & Blowouts",
     description:
-      "Expert beard shaping and trimming. From stubble to full beards, we'll keep your facial hair looking sharp.",
+      "Professional styling and blowouts for any occasion. Leave feeling polished and camera-ready.",
+  },
+  {
+    icon: Heart,
+    title: "Hair Treatments",
+    description:
+      "Deep conditioning and restorative treatments. Keep your hair healthy, shiny, and beautiful.",
   },
   {
     icon: Zap,
-    title: "Quick Walk-In Cuts",
+    title: "Walk-Ins Welcome",
     description:
-      "In a rush? Our efficient service gets you looking great fast. No appointment needed — just walk in!",
+      "No appointment needed! Our friendly team is ready to help you look and feel your best. Just walk in!",
   },
 ];
 
@@ -88,7 +88,7 @@ const Services = () => {
           <p className="text-muted-foreground text-lg">
             Questions about our services?{" "}
             <a
-              href="tel:+15124796911"
+              href="tel:+15123835821"
               className="text-gold hover:underline font-medium link-underline"
             >
               Give us a call

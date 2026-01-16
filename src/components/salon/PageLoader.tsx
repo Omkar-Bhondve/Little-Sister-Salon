@@ -20,7 +20,7 @@ const PageLoader = () => {
         {/* Animated Logo */}
         <div className="mb-8 animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-display font-bold text-foreground">
-            The Cut <span className="text-gradient-gold">Hut</span>
+            Little Sister <span className="text-gradient-gold">Salon</span>
           </h1>
         </div>
 

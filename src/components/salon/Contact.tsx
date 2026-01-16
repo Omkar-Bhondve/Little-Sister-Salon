@@ -18,7 +18,8 @@ const Contact = () => {
     e.preventDefault();
     toast({
       title: "Message Sent!",
-      description: "We'll get back to you soon. For immediate service, give us a call!",
+      description:
+        "We'll get back to you soon. For immediate service, give us a call!",
     });
     setFormData({ name: "", phone: "", email: "", preferredDateTime: "" });
   };
@@ -49,7 +50,7 @@ const Contact = () => {
             {/* Contact Cards */}
             <div className="grid gap-4">
               <a
-                href="tel:+15124796911"
+                href="tel:+15123835821"
                 className="flex items-center gap-4 p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors group"
               >
                 <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center group-hover:bg-gold transition-colors">
@@ -57,12 +58,14 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Call Us</p>
-                  <p className="text-lg font-medium text-foreground">+1 (512) 479-6911</p>
+                  <p className="text-lg font-medium text-foreground">
+                    +1 (512) 383-5821
+                  </p>
                 </div>
               </a>
 
               <a
-                href="https://maps.google.com/?q=911+W+24th+St,+Austin,+TX+78705"
+                href="https://maps.google.com/?q=3715+S+1st+St+Unit+C,+Austin,+TX+78704"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 p-6 bg-secondary rounded-lg hover:bg-secondary/80 transition-colors group"
@@ -72,7 +75,9 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Visit Us</p>
-                  <p className="text-lg font-medium text-foreground">911 W 24th St, Austin, TX 78705</p>
+                  <p className="text-lg font-medium text-foreground">
+                    3715 S 1st St Unit C, Austin, TX 78704
+                  </p>
                 </div>
               </a>
 
@@ -82,8 +87,15 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Hours</p>
-                  <p className="text-lg font-medium text-foreground">Mon - Sat: 9AM - 7PM</p>
-                  <p className="text-sm text-muted-foreground">Sun: 10AM - 5PM</p>
+                  <p className="text-lg font-medium text-foreground">
+                    Tue - Sat: 9AM - 5PM
+                  </p>
+                  <p className="text-sm text-muted-foreground">
+                    Thu: 8AM - 5PM
+                  </p>
+                  <p className="text-sm text-muted-foreground">
+                    Sun - Mon: Closed
+                  </p>
                 </div>
               </div>
             </div>
@@ -91,14 +103,14 @@ const Contact = () => {
             {/* Google Map */}
             <div className="aspect-video rounded-lg overflow-hidden border border-border">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.0!2d-97.7445!3d30.2855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b5a5c0000001%3A0x0!2s911%20W%2024th%20St%2C%20Austin%2C%20TX%2078705!5e0!3m2!1sen!2sus!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3447.0!2d-97.7445!3d30.2155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b5a5c0000001%3A0x0!2s3715%20S%201st%20St%20Unit%20C%2C%20Austin%2C%20TX%2078704!5e0!3m2!1sen!2sus!4v1234567890"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="The Cut Hut Location"
+                title="Little Sister Salon Location"
               />
             </div>
           </div>

@@ -27,7 +27,7 @@ const SpecialOfferBanner = () => {
 
             <div className="flex items-center gap-2 md:gap-3 flex-shrink-0">
               <a
-                href="tel:+15124796911"
+                href="tel:+15123835821"
                 className="hidden sm:inline-flex px-4 md:px-6 py-2 bg-white text-foreground rounded-lg font-medium hover:bg-white/90 transition-colors text-sm md:text-base"
               >
                 Claim Offer

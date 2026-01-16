@@ -43,8 +43,8 @@ const Gallery = () => {
             Our <span className="text-gradient-gold">Space</span>
           </h2>
           <p className="text-muted-foreground text-lg">
-            Take a look inside The Cut Hut. Clean, modern, and welcoming — the
-            perfect place for your next haircut.
+            Take a look inside Little Sister Salon. Clean, modern, and welcoming
+            — the perfect place for your next haircut.
           </p>
         </div>
 

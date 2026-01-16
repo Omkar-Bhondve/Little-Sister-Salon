@@ -17,7 +17,6 @@ import PageLoader from "@/components/salon/PageLoader";
 import ScrollProgress from "@/components/salon/ScrollProgress";
 import FloatingActionButton from "@/components/salon/FloatingActionButton";
 import SpecialOfferBanner from "@/components/salon/SpecialOfferBanner";
-import WhatsAppButton from "@/components/salon/WhatsAppButton";
 
 const Index = () => {
   return (
@@ -43,7 +42,6 @@ const Index = () => {
       </main>
       <Footer />
       <FloatingActionButton />
-      <WhatsAppButton />
     </div>
   );
 };
